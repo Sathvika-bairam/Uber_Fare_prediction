@@ -5,8 +5,8 @@ import pandas as pd
  
 # Load trained model
 
-with open("best_model.pkl", "rb") as f:
-    model = pickle.load(f)
+import joblib 
+model = joblib.load("")
  
 st.set_page_config(
     page_title="Uber Fare Prediction System",
