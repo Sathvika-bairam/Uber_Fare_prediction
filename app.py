@@ -5,7 +5,7 @@ import pandas as pd
  
 # Load trained model
 
-with open(r"C:\Users\baira\OneDrive\Desktop\uber_price_predictions\best_model.pkl", "rb") as f:
+with open("best_model.pkl", "rb") as f:
     model = pickle.load(f)
  
 st.set_page_config(
