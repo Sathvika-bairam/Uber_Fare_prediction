@@ -6,7 +6,7 @@ import pandas as pd
 # Load trained model
 import joblib
 
-model = joblib.load("best_model.pkl")
+model = joblib.load(r"C:\Users\baira\OneDrive\Desktop\uber_price_predictions\best_model.pkl")
  
  
 st.set_page_config(
