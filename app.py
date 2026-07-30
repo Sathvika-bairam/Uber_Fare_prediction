@@ -6,7 +6,7 @@ import pandas as pd
 # Load trained model
 
 import joblib 
-model = joblib.load("")
+model = joblib.load("best_model.pkl")
  
 st.set_page_config(
     page_title="Uber Fare Prediction System",
