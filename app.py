@@ -4,10 +4,9 @@ import pickle
 import pandas as pd
  
 # Load trained model
-import joblib
 
-model = joblib.load(r"C:\Users\baira\OneDrive\Desktop\uber_price_predictions\best_model.pkl")
- 
+with open(r"C:\Users\baira\OneDrive\Desktop\uber_price_predictions\best_model.pkl", "rb") as f:
+    model = pickle.load(f)
  
 st.set_page_config(
     page_title="Uber Fare Prediction System",
